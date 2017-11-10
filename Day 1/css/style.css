@@ -1,0 +1,32 @@
+body {
+    color: #333;
+    font-family: 'Sans Serif';
+}
+
+.key {
+    display: inline-block;
+    padding: 8px 34px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 #333;
+    margin-right: 20px;
+    transition: all 0.07s;
+}
+
+.key kbd {
+    display: block;
+    font-size: 34px;
+    text-align: center;
+}
+
+.key .sound {
+    text-transform: uppercase;
+    font-size: 8px;
+    display: block;
+    text-align: center;
+}
+
+.key.playing {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px -4px #333;
+}
