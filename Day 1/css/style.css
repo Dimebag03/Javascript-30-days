@@ -6,10 +6,10 @@ body {
 .key {
     display: inline-block;
     padding: 8px 34px;
-    border: 1px solid #333;
-    border-radius: 2px;
-    box-shadow: 0 0 0 0 #333;
     margin-right: 20px;
+    border-radius: 2px;
+    border: 1px solid #333;
+    box-shadow: 0 0 0 0 #333;
     transition: all 0.07s;
 }
 
@@ -20,10 +20,10 @@ body {
 }
 
 .key .sound {
-    text-transform: uppercase;
-    font-size: 8px;
     display: block;
+    font-size: 8px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .key.playing {
