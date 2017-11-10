@@ -3,7 +3,7 @@
     width: 100px;
     height: 100px;
     border: 8px solid #333;
-    border-radius: 50%;
+    border-radius: 2px
 }
 
 .hand {
@@ -16,6 +16,10 @@
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0, 3.82, 0.58, 1);
+}
+
+.hand.second-hand {
+    background-color: #EA4335;
 }
 
 .hand.min-hand {
