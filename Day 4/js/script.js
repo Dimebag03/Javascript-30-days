@@ -103,7 +103,6 @@ console.log(totalYears);
 const oldest = inventors.sort((a, b) => {
     let firstOldest = a.passed - a.year;
     let secondOldest = b.passed - b.year;
-
     return firstOldest < secondOldest ? 1 : -1;
 });
 console.table(oldest);
