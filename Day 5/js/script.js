@@ -5,9 +5,7 @@ function setActive() {
 }
 
 function setTranslate(e) {
-    if (e.propertyName.includes('flex')) {
-        this.querySelector('p').classList.toggle('active');
-    }
+    if (e.propertyName.includes('flex')) this.querySelector('p').classList.toggle('active');
 }
 
 panelElements.forEach(ele => ele.addEventListener('click', setActive));
