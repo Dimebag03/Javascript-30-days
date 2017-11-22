@@ -1,0 +1,34 @@
+body {
+    color: #333;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.panels {
+    display: flex;
+}
+
+.panel {
+    flex: 1;
+    border: 1px solid #333;
+    border-radius: 2px;
+    transition: 0.7s;
+    overflow: hidden;
+    transition-timing-function: cubic-bezier(0.13, 0.95, 0.23, 1.31);
+}
+
+.panel.active {
+    flex: 5;
+}
+
+p {
+    transform: translateY(-50px);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.7s;
+    transition-timing-function: cubic-bezier(0.13, 0.95, 0.23, 1.31);
+}
+
+p.active {
+    transform: translateY(0);
+}
