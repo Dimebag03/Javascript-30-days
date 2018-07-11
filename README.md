@@ -7,3 +7,4 @@ Exercícios do curso Javascript 30 days - https://javascript30.com/
 - Dia 4 - Trabalhando com Arrays
 - Dia 5 - Brincando com ***flex***
 - Dia 6 - Ajax Type Ahead
+- Dia 7 - Trabalhando com Arrays 2
