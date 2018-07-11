@@ -8,3 +8,4 @@ Exercícios do curso Javascript 30 days - https://javascript30.com/
 - Dia 5 - Brincando com ***flex***
 - Dia 6 - Ajax Type Ahead
 - Dia 7 - Trabalhando com Arrays 2
+- Dia 8 - Desenhando no canvas com o mouse XDDD
